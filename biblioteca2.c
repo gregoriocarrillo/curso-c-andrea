@@ -18,6 +18,10 @@ int main()
     char editorial[50];
     int esta_prestado;
     char isbn[14];
+    char genero[50];
+    char idioma[50];
+    int fecha_revision;
+    int copias_disponibles;
 
     //Variables para el menu
     int opcion = 0;
@@ -42,12 +46,12 @@ int main()
     do {
         // Menú principal
         printf("\033[0;31m");
-        printf("1. Ver catalogo de libros\n");
-        printf("1.1. Ordenar catalogo por autor\n");
-        printf("2. Buscar libro\n");
-        printf("3. Prestar libro\n");
-        printf("4. Devolver libro\n");
-        printf("5. Salir\n\n");
+        printf("1.   |Ver catalogo de libros\n");
+        printf("1.1. |Ordenar catalogo por autor\n");
+        printf("2.   |Buscar libro\n");
+        printf("3.   |Prestar libro\n");
+        printf("4.   |Devolver libro\n");
+        printf("5.   |Salir\n\n");
         printf("\033[0m");
 
         printf("Seleccione una opcion: ");
